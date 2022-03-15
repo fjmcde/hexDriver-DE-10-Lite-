@@ -21,7 +21,7 @@ module driveHex_tb;
   
   initial begin
     #10
-    in = 10'b0000000111; // change as needed
+    in = 10'b1000000000; // change as needed
     $monitor(
       "in: %b, 5: %b, 4: %b, 3: %b, 2: %b, 1: %b, 0: %b", 
       in, hex5, hex4, hex3, hex2, hex1, hex0
